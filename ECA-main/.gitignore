@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# Backend specific
+backend/.env
+backend/test_keys.py
+backend/audit_logs/
+backend/cad_models/
+backend/scratch/
+backend/__pycache__/
+backend/engine/__pycache__/
+backend/agents/__pycache__/
+
+# Frontend specific
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# CAD / Transient
+ECA_Creo.java
+ECA_Fusion360.py
+ECA_Inventor.ilogic
+ECA_SolidWorks.cs
+project_analysis.md
